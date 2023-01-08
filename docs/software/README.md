@@ -1,7 +1,9 @@
 # Реалізація інформаційного та програмного забезпечення
 
-В рамках проекту розробляється: 
-- SQL-скрипт для створення на початкового наповнення бази даних
+У рамках проекту розробляється: 
+
+## SQL-скрипт для створення на початкового наповнення бази даних
+
 ```sql
 -- MySQL Workbench Forward Engineering  
   
@@ -349,9 +351,9 @@ values ( (select mydb.Role.id from mydb.Role where mydb.Role.slug='developer')
 COMMIT;  
 ```
 
-- RESTfull сервіс для управління даними
+## RESTfull сервіс для управління даними  
 
-## Кореневий файл серверу
+### Кореневий файл серверу
 
 ```js
 const db = require('./config');
@@ -368,7 +370,7 @@ app.use('/', require('./router'));
 db.connect(() => app.listen(PORT, () => console.log(`Server is running on port ${PORT}`)));
 ```
 
-## Файл з роутером
+### Файл з роутером
 ```js
 const db = require('./config');
 const express = require('express');
@@ -656,7 +658,7 @@ router
 module.exports = router;
 ```
 
-## Конфігураційний файл для з'єднання з базою даних
+### Конфігураційний файл для з'єднання з базою даних
 ```js
 const mysql = require('mysql');
 

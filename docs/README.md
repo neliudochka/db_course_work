@@ -6,8 +6,11 @@ actionLink: /intro/
 footer: "ECL 2.0 Licensed | Copyright © [2022] [Світлана БАРИЦЬКА Марія Гайдей Людмила ГОРБУНОВА Сергій КОЛОСОВ Вікторія МИЦЬ Нікіта СУТУЛОВ]"
 ---
 
+**Закінчила розробку:**  
 
-**Виконали:** 
+<span padding-right:5em></span> **Людмила ГОРБУНОВА [Telegram](https://t.me/neliudochka), [GitHub](https://github.com/neliudochka), Email gorbunova.milasha@gmail.com**
+
+**Брали участь у розробці:** 
 
 *студенти 2-го курсу, групи ІМ-12*
 
